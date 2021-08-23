@@ -1,4 +1,4 @@
-import "../css/Work.css";
+import "./css/Work.css";
 
 const Work = () => {
   return (
