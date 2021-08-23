@@ -4,7 +4,7 @@
   align-items: center;
   gap: 5rem;
   height: 100%;
-  padding-top: 5rem;
+  padding-top: 1.5rem;
 }
 
 #work h1 {
@@ -55,6 +55,9 @@
 }
 
 @media screen and (min-width: 40em) {
+  #work {
+    padding-top: 3rem;
+  }
   .work__container iframe {
     width: 30rem;
   }
@@ -75,6 +78,7 @@
 
 @media screen and (min-width: 90em) {
   #work {
+    padding-top: 5rem;
     gap: 8rem;
   }
   .work__container iframe {
