@@ -34,7 +34,7 @@ const MobileNavigation = () => {
     <motion.nav
       initial={animateFrom}
       animate={animateTo}
-      transition={{ delay: 0.3 }}
+      transition={{ delay: 0.7 }}
       className="MobileNavigation"
     >
       {open ? closeIcon : hamburgerIcon}
