@@ -1,11 +1,11 @@
 import NavLinks from "./NavLinks";
-import "/github/portfolio/src/css/Header.css";
+import "../css/Header.css";
 
 const Navigation = () => {
   return (
-    <div className="Navigation">
+    <nav className="Navigation">
       <NavLinks />
-    </div>
+    </nav>
   );
 };
 

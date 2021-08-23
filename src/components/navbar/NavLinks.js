@@ -1,4 +1,4 @@
-import "/github/portfolio/src/css/Header.css";
+import "../css/Header.css";
 import { motion } from "framer-motion";
 
 const NavLinks = (props) => {

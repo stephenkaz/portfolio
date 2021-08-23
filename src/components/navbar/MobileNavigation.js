@@ -1,5 +1,5 @@
 import NavLinks from "./NavLinks";
-import "/github/portfolio/src/css/Header.css";
+import "../css/Header.css";
 import { CgMenuRight } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
 import { useState } from "react";
