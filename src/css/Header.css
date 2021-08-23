@@ -17,7 +17,7 @@ nav {
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
 
 .logo a {
@@ -47,7 +47,7 @@ nav {
 @media screen and (min-width: 40em) {
   nav {
     max-width: 80%;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   .logo a {
@@ -57,6 +57,10 @@ nav {
 }
 
 @media only screen and (min-width: 64em) {
+  nav {
+    padding-top: 5rem;
+  }
+
   .hamburger {
     display: none;
   }
