@@ -1,10 +1,80 @@
 #work {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
   height: 100%;
+  padding-top: 5rem;
 }
 
 #work h1 {
   color: black;
   text-align: center;
+  grid-area: header;
+}
+
+.work__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 3rem;
+}
+
+.work__container iframe {
+  overflow: hidden;
+  width: 21rem;
+}
+
+.work__container a {
+  color: black;
+  font-weight: 600;
+}
+
+.work__container .example__1 p,
+.work__container .example__2 p {
+  border: 2px solid black;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+}
+
+.work__container .example__1 p:hover,
+.work__container .example__2 p:hover {
+  transform: scale(0.9);
+}
+
+@media screen and (min-width: 25em) {
+  .work__container iframe {
+    width: 24rem;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .work__container iframe {
+    width: 30rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .work__container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .work__container iframe {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .work__container iframe {
+    width: 30rem;
+    height: 30rem;
+  }
 }
