@@ -10,7 +10,7 @@ const NavLinks = (props) => {
       <motion.li
         initial={animateFrom}
         animate={animateTo}
-        transition={{ delay: 0.05 }}
+        transition={{ delay: 0.3 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
         <a href="#work">Work</a>
@@ -18,7 +18,7 @@ const NavLinks = (props) => {
       <motion.li
         initial={animateFrom}
         animate={animateTo}
-        transition={{ delay: 0.15 }}
+        transition={{ delay: 0.5 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
         <a href="#contact" className="contact-btn">
