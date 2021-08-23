@@ -1,0 +1,60 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10rem;
+  gap: 3rem;
+}
+
+h1,
+p,
+.chat-btn {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  color: white;
+  line-height: 2;
+}
+
+.chat-btn {
+  color: black;
+  font-weight: 600;
+  background: white;
+  border: 2px solid white;
+  padding: 0.75rem 2rem;
+  border-radius: 10rem;
+  transition: all 200ms ease-in-out;
+}
+
+.chat-btn:hover {
+  transform: scale(0.9);
+  background: transparent;
+  color: white;
+}
+
+@media only screen and (min-width: 40em) {
+  .hero-container {
+    max-width: 60%;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .hero-container {
+    max-width: 45%;
+  }
+}

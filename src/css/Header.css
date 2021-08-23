@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+li {
+  list-style-type: none;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3rem;
+}
+
+.logo a {
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.nav__links {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+}
+
+.hamburger div {
+  width: 1.4rem;
+  height: 0.13rem;
+  background-color: white;
+  margin: 0.35rem;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 40em) {
+  nav {
+    max-width: 80%;
+    padding-top: 5rem;
+  }
+
+  .logo a {
+    font-size: 1.5rem;
+    letter-spacing: 7px;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav__links {
+    display: inline-flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav__links li a {
+    font-size: 1.1rem;
+  }
+
+  .contact-btn {
+    color: black;
+    font-weight: 600;
+    background: white;
+    border: 2px solid white;
+    padding: 0.75rem 2rem;
+    border-radius: 10rem;
+    transition: all 200ms ease-out;
+  }
+
+  .contact-btn:hover {
+    background: transparent;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .nav__links {
+    width: 20%;
+  }
+}
