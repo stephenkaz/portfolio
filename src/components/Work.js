@@ -10,6 +10,7 @@ const Work = () => {
           <div className="iframe__container">
             <iframe
               src="https://airbnb-clone-stephenkaz.vercel.app/"
+              title="Airbnb"
               frameborder="0"
             ></iframe>
           </div>
@@ -24,6 +25,7 @@ const Work = () => {
           <div className="iframe__container">
             <iframe
               src="https://loopstudios-landing-page-stephenkaz.vercel.app/"
+              title="Loopstudios"
               frameborder="0"
             ></iframe>
           </div>
