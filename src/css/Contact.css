@@ -1,6 +1,6 @@
 .contact__header h1 {
   color: black;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
 .contact__form form {
@@ -46,6 +46,10 @@
 }
 
 @media (min-width: 64em) {
+  .contact__header h1 {
+    padding-top: 3rem;
+  }
+
   .input__container {
     width: 50%;
   }
@@ -56,6 +60,10 @@
 }
 
 @media (min-width: 90em) {
+  .contact__header h1 {
+    padding-top: 5rem;
+  }
+
   .contact__form form {
     margin-top: 5rem;
   }
