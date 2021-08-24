@@ -24,7 +24,7 @@ const Contact = () => {
         <h1>Contact</h1>
       </div>
       <div className="contact__form">
-        <form onSubmit={Contact}>
+        <form onSubmit={sendEmail}>
           <div className="input__container">
             <input
               type="text"
