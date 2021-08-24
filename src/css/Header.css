@@ -63,7 +63,7 @@ a {
   cursor: pointer;
 }
 
-@media screen and (min-width: 40em) {
+@media (min-width: 40em) {
   .Navbar {
     max-width: 80%;
     padding-top: 3rem;
@@ -75,7 +75,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media (min-width: 64em) {
   .Navbar .MobileNavigation {
     display: none;
   }
@@ -116,7 +116,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 90em) {
+@media (min-width: 90em) {
   .nav__links {
     width: 20%;
   }

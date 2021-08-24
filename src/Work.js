@@ -2,7 +2,7 @@ import "./css/Work.css";
 
 const Work = () => {
   return (
-    <div id="work">
+    <>
       <h1>Work</h1>
 
       <div className="work__container">
@@ -37,7 +37,7 @@ const Work = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
