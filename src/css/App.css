@@ -22,7 +22,7 @@ section {
 
 .one {
   background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-    url("/src/img/desktop.png");
+    url("../img/desktop.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
