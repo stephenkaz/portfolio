@@ -26,15 +26,9 @@
   display: none;
 }
 
-.work__container iframe {
-  scrollbar-width: none;
-  overflow: hidden;
-  width: 21rem;
-  height: 25rem;
-}
-
-.work__container iframe::-webkit-scrollbar {
-  display: none;
+.work__container img {
+  width: 20rem;
+  height: 35rem;
 }
 
 .work__container a {
@@ -43,7 +37,9 @@
 }
 
 .work__container .example__1 p,
-.work__container .example__2 p {
+.work__container .example__2 p,
+.work__container .example__3 p,
+.work__container .example__4 p {
   border: 2px solid black;
   width: 50%;
   margin-right: auto;
@@ -54,7 +50,9 @@
 }
 
 .work__container .example__1 p:hover,
-.work__container .example__2 p:hover {
+.work__container .example__2 p:hover,
+.work__container .example__3 p:hover,
+.work__container .example__4 p:hover {
   transform: scale(0.9);
 }
 
