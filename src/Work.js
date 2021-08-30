@@ -1,6 +1,6 @@
 import "./css/Work.css";
 import workJson from "./api/workData";
-import { animationControls, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
