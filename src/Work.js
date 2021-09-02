@@ -33,7 +33,7 @@ const Work = () => {
       animationOne.start({ x: "-100vw" });
       animationTwo.start({ x: "-100vw" });
     }
-  }, [inView, animationOne, animationTwo]);
+  }, [inView]);
 
   return (
     <>

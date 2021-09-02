@@ -27,5 +27,19 @@ export const workData = [
     href: "https://loruki-stephenkaz.vercel.app/",
     key: "4",
   },
+  {
+    img: "./img/testimonials.PNG",
+    title: "Testimonials",
+    alt: "testimonials landing page",
+    href: "https://testimonials-stephenkaz.vercel.app/",
+    key: "5",
+  },
+  {
+    img: "./img/SPLandingPage.PNG",
+    title: "Landing Page",
+    alt: "single price landing page",
+    href: "https://singleprice-stephenkaz.vercel.app/",
+    key: "6",
+  },
 ];
 export default workData;

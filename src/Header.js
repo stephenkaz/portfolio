@@ -12,7 +12,7 @@ const Header = () => {
       <motion.div
         initial={animateFrom}
         animate={animateTo}
-        transition={{ delay: 0.5 }}
+        transition={{ ease: "easeIn", delay: 0.5 }}
         className="logo"
       >
         <a href="/">StephenKDesign</a>
