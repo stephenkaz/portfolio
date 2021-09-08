@@ -6,6 +6,8 @@ import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 
 const Work = () => {
+  // need to try to make useEffect a component
+
   const { ref, inView } = useInView();
   const animationOne = useAnimation();
   const animationTwo = useAnimation();
